@@ -19,7 +19,7 @@
 As we know, decks are collections of cards. This server mocks up card and deck generating.<br>
 It implemented three routes:<br>
 > GET /users/{username}/decks <br>
-> GET /decks/{id}
+> GET /decks/{id}<br>
 > GET /users/{username}/detailed_decks <br>
 
 The last route returns the detailed decks which uses the above two routes and combines together cards returned by the second route with collection of decks from the first route.<br>
